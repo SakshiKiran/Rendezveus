@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>sign up page</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/cover/">
+    
+
+    
+
+    
+
+<link href="/bootstrap-5.2.2-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(190, 74, 235, 0.1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      body{
+        background-image: linear-gradient(rgb(146, 126, 219),white);
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="/css/cover.css" rel="stylesheet">
+  </head>
+  <body class="d-flex h-100 text-start">
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h1 class="float-md-start mb-0 text-white"><img src="/images/websiteDummyLogo.png" height ="50" width="50" /> Rendezvous</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <!-- <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a> -->
+        <button  type="button" class="btn nav-link loginButton" data-bs-toggle="button" href="#"> <img src="/images/Loginlogo.png" height ="20" width="20" /> Login</button>
+        <!-- <a class="nav-link fw-bold py-1 px-0" href="#">LogIN</a> -->
+        <!-- <button type="button" class="btn btn-primary nav-link" data-bs-toggle="button" href="#">Get Started</button> -->
+        <!-- <a class="nav-link fw-bold py-1 px-0" href="#">Get Started</a> -->
+      </nav>
+    </div>
+  </header>
+  <div class="container text-center" style="padding-top: 3rem!important;">
+    <div class="row d-flex justify-content-center align-items-center" style="border-radius: 1rem">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+  <button type="button" class="btn btn-light"><img src="/images/facebook_logo.png" height ="20" width="20" />   Sign Up with facebook</button>
+      </div></div></div>
+      <hr class="my-4">
+    <div class="container h-100" style="padding-top: 1rem!important;">
+      <div class="row d-flex justify-content-center align-items-center" style="border-radius: 1rem">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card shadow-2-strong" style="border-radius: 2rem;">
+            <div class="card-body text-center" style="padding-top: 2rem; padding-left: 3rem; padding-right: 3rem;">
+  
+              <!-- <h3 style="margin-bottom: 1rem!important;">Login</h3> -->
+              
+  
+              <div class="form-outline mb-4 text-start">
+                <label class="form-label" for="typeEmailX-2">Username</label>
+                <input type="email" id="typeEmailX-2" class="form-control form-control-lg" style="text-align: center; font-size: large;" placeholder="Enter your username"/>
+                
+              </div>
+              <div class="form-outline mb-4 text-start">
+                <label class="form-label" for="typeEmailX-2">Email Id</label>
+                <input type="email" id="typeEmailX-2" class="form-control form-control-lg" style="text-align: center; font-size: large;" placeholder="Enter your email id"/>
+                
+              </div>
+  
+              <div class="form-outline mb-4 text-start" >
+                <label class="form-label" for="typePasswordX-2">Password</label>
+                <input type="password" id="typePasswordX-2" class="form-control form-control-lg" style="text-align: center; font-size: large;"placeholder ="Enter your password" />
+                
+              </div>
+              <div class="form-outline mb-4 text-start" >
+                <label class="form-label" for="typePasswordX-2">Confirm Password</label>
+                <input type="password" id="typePasswordX-2" class="form-control form-control-lg" style="text-align: center; font-size: large;"placeholder ="Re-enter your password" />
+                
+              </div>
+  
+              <!-- Checkbox -->
+              <!-- <div class="form-check d-flex justify-content-start mb-4">
+                <input class="form-check-input" type="checkbox" value="" id="form1Example3" />
+                <label class="form-check-label" for="form1Example3"> Remember password </label>
+              </div> -->
+              
+            
+  
+              <button class="btn btn-primary btn-lg btn-block" type="submit">Sign up</button>
+  
+              <hr class="my-4">
+  
+<!--               <button class="btn btn-lg btn-block btn-primary" style="background-color: #dd4b39;"
+                type="submit"><i class="fab fa-google me-2"></i> Sign in with google</button>
+              <button class="btn btn-lg btn-block btn-primary mb-2" style="background-color: #3b5998;"
+                type="submit"><i class="fab fa-facebook-f me-2"></i>Sign in with facebook</button>
+ -->  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--   <footer class="mt-auto">
+    <p>Sign up via <a href="#" class=""> <img src="facebook_logo.png" height ="20" width="20" /> Facebook </a></p>
+  </footer>
+</div> -->
+
+
+    
+  </body>
+</html>
